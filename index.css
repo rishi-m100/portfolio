@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content: center; /* Center items horizontally */
     align-items: center; 
+    border: 1px solid white;
 }
 
 .text{
@@ -197,22 +198,32 @@ a{
 h2{
     color: white;
 }
-
 .about{
+    display: block;
     padding: 30px;
     text-align: center;
 }
-
+.about div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 .pages{
     text-align: center;
 }
 .card{
     width: 30%; /* Adjust the width as needed */
+    height: 350px;
     display: inline-block;
-    background-color:#030A43;
+    /* background-color:#030A43; */
+
     text-align: center;
-    padding: 15px;
+    /* padding: 15px; */
+    border: 1px solid #500800;
     border-radius: 10px 10px;
+    box-shadow: 10px 5px 10px gray;
+
+
 }
 
 .card h2,a{
@@ -223,6 +234,23 @@ color:white;
     height: 50px;
     border: none;
     outline: none;
+    transition: .6s;
+    background-color: #030A43;
+    color: white;
     /* border-radius: 10px 10px; */
 padding: 3px;;
+}
+.card button:hover{
+    cursor: pointer;
+    color: #030A43;
+    background-color: white;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom:1px solid #500800;
+}
+
+.card_text{
+    padding: 15px;
 }
