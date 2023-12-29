@@ -1,0 +1,195 @@
+body {
+    /* font-family: 'Cutive Mono', monospace;     */
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E7;
+    color: #333;
+}
+
+nav {
+    background-color: #090909;
+    overflow: hidden;
+    box-shadow: 20px 10px 20px 10px #363434; /* Add box shadow here */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a{
+    float: left;
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 18px 26px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+    transition: .8s;
+}
+
+nav p{
+    /* display: block; */
+    float: left;
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: 26px;
+    color: white;
+}
+
+.name{
+    margin-left: 20px;
+    display: flex;
+    float: left;
+}
+
+.links{
+    float: right;
+    margin-right: 40px;
+}
+.menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        cursor: pointer;
+        padding: 14px 16px;
+    }
+
+    .menu-icon:hover {
+        background-color: #ddd;
+    }
+
+    .menu-items {
+        display: none;
+        clear: both;
+    }
+
+    .menu-items a {
+        display: block;
+    }
+}
+a{
+    color: white;
+}
+footer {
+    background-color: #343a40;
+    color: #FDFFFC;
+    text-align: center;
+    padding: 20px 0;
+}
+ul {
+    list-style-type: '- ';
+    text-align: left;
+}
+/* a{
+    color:#FDFFFC;
+
+} */
+
+header a{
+    color: black;
+}
+
+.line{
+    /* border: 1px solid #1a1c26;*/
+    width: 65%;
+ 
+ }
+ 
+ 
+ #logo{
+     height: 50px;
+     padding: 10px;
+     margin-right: 10px;
+ }
+ 
+ /* h2{
+     color: white;
+ } */
+
+ .top{
+    padding: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 24px;
+ }
+
+ .education{
+    display: flex;
+    padding-bottom: 40px;
+
+ }
+ .education-section{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+ .experience{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+
+ .left{
+   flex: .7;
+
+ }
+
+
+ .right{
+       flex: 1.2;
+ } 
+
+ .left h2{
+    font-weight: bolder;
+ }
+
+ #uni{
+    display: flex;
+ }
+ #dates{
+    flex:1;
+ }
+ #work{
+    flex:2;
+ }
+
+ 
+
+ ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: disc;
+}
+
+ul li{
+    padding: 3px;
+}
+
+#edu-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#school-name{
+    font-size: 24px;
+    font-weight: 800;
+}
+.disc{
+    font-size: 18px;
+    font-weight: 400;
+}

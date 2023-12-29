@@ -1,5 +1,6 @@
 body {
-    font-family: 'Cutive Mono', monospace;    margin: 0;
+    /* font-family: 'Cutive Mono', monospace;     */
+    margin: 0;
     padding: 0;
     background-color: #FFF8E7;
     color: #333;
@@ -211,7 +212,9 @@ h2{
 }
 .pages{
     text-align: center;
+    margin-bottom: 30px;
 }
+
 .card{
     width: 30%; /* Adjust the width as needed */
     height: 350px;
@@ -219,12 +222,17 @@ h2{
     /* background-color:#1a1c26; */
 
     text-align: center;
+    margin: 10px;
     /* padding: 15px; */
     border: 1px solid #500800;
     border-radius: 10px 10px;
     box-shadow:10px 0px 10px gray;
+    transition: .7s ease;
 
+}
 
+.card:hover{
+    transform: scale(1.02);
 }
 
 .card h2,a{
@@ -254,8 +262,4 @@ padding: 3px;;
 
 .card_text{
     padding: 15px;
-}
-
-#copyright{
-    font-size: 16px;
 }
