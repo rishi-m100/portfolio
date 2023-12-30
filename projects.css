@@ -1,0 +1,104 @@
+body {
+    /* font-family: 'Cutive Mono', monospace;     */
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E7;
+    color: #333;
+}
+
+nav {
+    background-color: #090909;
+    overflow: hidden;
+    box-shadow: 20px 10px 20px 10px #363434; /* Add box shadow here */
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a{
+    float: left;
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 18px 26px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #333;
+    transition: .8s;
+}
+
+nav p{
+    /* display: block; */
+    float: left;
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: 26px;
+    color: white;
+}
+
+.name{
+    margin-left: 20px;
+    display: flex;
+    float: left;
+}
+
+.links{
+    float: right;
+    margin-right: 40px;
+}
+.menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+        cursor: pointer;
+        padding: 14px 16px;
+    }
+
+    .menu-icon:hover {
+        background-color: #ddd;
+    }
+
+    .menu-items {
+        display: none;
+        clear: both;
+    }
+
+    .menu-items a {
+        display: block;
+    }
+}
+a{
+    color: white;
+}
+footer {
+    background-color: #343a40;
+    color: #FDFFFC;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.line{
+    /* border: 1px solid #1a1c26;*/
+    width: 65%;
+ 
+ }
+ 
+ 
+ #logo{
+     height: 50px;
+     padding: 10px;
+     margin-right: 10px;
+ }
+ 

@@ -144,6 +144,13 @@ header a{
     margin-right: 40px;
  }
 
+ .projects{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+
  .left{
    flex: .7;
 
@@ -192,4 +199,25 @@ ul li{
 .disc{
     font-size: 18px;
     font-weight: 400;
+}
+
+#uiuc{
+    /* width: 330px; */
+    width: 60%; /* Set the width and height of your circle */
+    height: 60%;
+    border-radius: 50%; /* This creates the circular shape */
+    overflow: hidden; /* This ensures the image stays within the circle */
+    object-fit: cover;
+}
+#criterion{
+    width: 130px;
+}
+#apl{
+    width: 190px;
+}
+#umbc{
+    width: 170px;
+}
+#misi{
+    width: 170px;
 }
