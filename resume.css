@@ -1,3 +1,6 @@
+*{
+    overflow-x: hidden;
+}
 body {
     /* font-family: 'Cutive Mono', monospace;     */
     margin: 0;
@@ -151,6 +154,13 @@ header a{
     margin-right: 40px;
  }
 
+ .skills{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+
  .left{
    flex: .7;
 
@@ -221,3 +231,24 @@ ul li{
 #misi{
     width: 170px;
 }
+
+#languages, #tools, #tech{
+    display: flex;
+}
+
+#languages div, #tools div, #tech div{
+    padding: 1px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#languages p, #tools p, #tech p{
+    padding: 1px;
+    flex: 1;
+}
+
+.skills hr{
+    width: 50%;
+justify-content: center;}
