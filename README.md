@@ -10,6 +10,6 @@ Personal portfolio website detailing:
 - technical skills
 - past and current projects
 
-##Hosted Site
+## Hosted Site
 
 Check out the hosted version of the project [here](https://rishi-m100.github.io/portfolio/)
