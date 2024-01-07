@@ -4,11 +4,11 @@ portfolio
 
 Personal portfolio website detailing:
 
-- about me\
-- my resume\
-- past/current experience\
-- technical skills\
-- past and current projects\
+- about me
+- my resume
+- past/current experience
+- technical skills
+- past and current projects
 
 ##Hosted Site
 
