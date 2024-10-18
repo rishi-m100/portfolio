@@ -238,7 +238,7 @@ h2{
 .card h2,a{
 color:white;
 }
-.card button{
+ button{
     width: 150px;
     height: 50px;
     border: none;
@@ -249,10 +249,10 @@ color:white;
     /* border-radius: 10px 10px; */
 padding: 3px;;
 }
-.card button:hover{
+ button:hover{
     cursor: pointer;
-    color: #1a1c26;
-    background-color: white;
+    color: white;
+    background-color: rgb(69, 25, 25);
 }
 .card img{
     width: 100%;
@@ -262,4 +262,19 @@ padding: 3px;;
 
 .card_text{
     padding: 15px;
+}
+
+#blog_card{
+    height: 420px;
+    margin: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+.blog_container{
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
 }
